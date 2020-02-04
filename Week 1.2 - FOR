@@ -1,0 +1,42 @@
+# EXERCISE 1
+# Convert the following code into code that uses a for loop.
+
+# prints 2
+# prints 4
+# prints 6
+# prints 8
+# prints 10
+# prints Goodbye!
+
+for count in range(2,11,2):
+    print(count)
+print('Goodbye!') 
+    
+# ===========================
+
+# EXERCISE 2
+# Convert the following code into code that uses a for loop.
+# prints Hello!
+# prints 10
+# prints 8
+# prints 6
+# prints 4
+# prints 2
+
+
+print('Hello!')
+
+for count in range(10,0,-2):
+    print(count)
+    
+# ============================
+
+#Write a for loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example, 
+#if we define end to be 6, your code should print out the result:21, which is 1 + 2 + 3 + 4 + 5 + 6.
+
+
+suma = 0
+for count in range (0, end):
+    suma = suma + count
+    
+print(suma+end)
