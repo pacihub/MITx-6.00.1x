@@ -51,6 +51,16 @@ while n<= end:
     suma = suma + n
     n+=1
 print(suma)
+
+
+#############################################################
+
+eto kak stava s FOR LOOP
+suma = 0
+for n in range(6+1):
+     suma += n
+     
+print(suma)
     
     
     
