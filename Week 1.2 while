@@ -44,12 +44,14 @@ while n>2:
 # Our automating testing will provide values so write your code in the following box assuming these variables are already defined.
     
     
-    suma = 0
+end = 6
 n = 0
+suma = 0
 
-while n<= end:
-    suma = suma + n
+while n < end:
     n+=1
+    suma += n
+
 print(suma)
 
 
